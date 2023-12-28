@@ -81,14 +81,14 @@ Cập nhật thành công ta được đoạn code như sau:
 autotime-openwrt: Update tệp lệnh...
 autotime-openwrt: Đang tải tệp lệnh...
 Downloading 'https://raw.githubusercontent.com/hienhoanghien2006/auto-times-passwall-openwrt/main/autotime-openwrt'
-Connecting to 185.199.108.133:443
+Connecting to 185.199.109.133:443
 Writing to '/root/jamup.sh'
-/root/jamup.sh       100% |*******************************|  7219   0:00:00 ETA
-Download completed (7219 bytes)
+/root/jamup.sh       100% |*******************************|  7200   0:00:00 ETA
+Download completed (7200 bytes)
 autotime-openwrt: update thành công.
 autotime-openwrt: Đã xóa tệp update!
 Cách dùng: Thêm tên miền sau tệp lệnh!.
-autotime-openwrt: Thiếu tên miền/URL!. Để biết thêm chi tiết vào FB Hoàng Minh Hiển.
+autotime-openwrt: Thiếu tên miền/URL!. Để biết thêm chi tiết vào Zalo: https://zalo.me/hoanghien14 FB Hoàng Minh Hiển.
 ```
 # Mọi thắc mắc vui lòng liên hệ zalo Hoàng Minh Hiển: 
 #       http://zalo.me/hoanghien14
