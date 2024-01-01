@@ -104,17 +104,17 @@ function sandal() {
 if [[ "$1" == "update" ]]; then
 	echo -e "${nmfl}: Update tệp lệnh..."
 	echo -e "${nmfl}: Đang tải tệp lệnh..."
-        wget --no-check-certificate "https://raw.githubusercontent.com/hienhoanghien2006/auto-times-passwall-openwrt/main/autotime-openwrt" -O "$jamup"
+        wget --no-check-certificate "https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt" -O "$jamup"
 	chmod +x "$jamup"
 	sed -i 's/\r$//' "$jamup"
 	cat << "EOF" > "$jamup2"
 #!/bin/bash
 # Đồng bộ ngày giờ bằng tên miền/URL
-jamsh='/usr/bin/autotime-openwrt'
+jamsh='/usr/bin/Auto-Times-OpenWrt'
 jamup='/root/jamup.sh'
 [[ -e "$jamup" ]] && [[ -f "$jamsh" ]] && rm -f "$jamsh" && mv "$jamup" "$jamsh"
 [[ -e "$jamup" ]] && [[ ! -f "$jamsh" ]] && mv "$jamup" "$jamsh"
-echo -e 'autotime-openwrt: update thành công.'
+echo -e 'Auto-Times-OpenWrt: update thành công.'
 chmod +x "$jamsh"
 EOF
 	sed -i 's/\r$//' "$jamup2"
