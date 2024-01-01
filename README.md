@@ -43,13 +43,13 @@ Dán lệnh bên dưới để cài đặt tập lệnh times-openwrt
 
 Dùng wget:
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/hienhoanghien2006/auto-times-passwall-openwrt/main/autotime-openwrt" -O /usr/bin/autotime-openwrt && chmod +x /usr/bin/autotime-openwrt
+wget --no-check-certificate "https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt" -O /usr/bin/Auto-Times-OpenWrt && chmod +x /usr/bin/Auto-Times-OpenWrt
 ```
 
 dùng curl:
 ```
 
-curl -sL https://raw.githubusercontent.com/hienhoanghien2006/auto-times-passwall-openwrt/main/autotime-openwrt > /usr/bin/autotime-openwrt && chmod +x /usr/bin/autotime-openwrt
+curl -sL https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt > /usr/bin/autotime-openwrt && chmod +x /usr/bin/Auto-Times-OpenWrt
 ```
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặc tại rc.local nếu ở trong terminal
@@ -73,22 +73,22 @@ Lệnh trên cũng có thể được bao gồm trong tệp/etc/crontabs/root
 Để update tập lệnh hãy thực hiện lệnh bên dưới:
 ```
 
-/usr/bin/autotime-openwrt update
+/usr/bin/Auto-Times-OpenWrt update
 ```
 Cập nhật thành công ta được đoạn code như sau:
 
 ```
-autotime-openwrt: Update tệp lệnh...
-autotime-openwrt: Đang tải tệp lệnh...
-Downloading 'https://raw.githubusercontent.com/hienhoanghien2006/auto-times-passwall-openwrt/main/autotime-openwrt'
+Auto-Times-OpenWrt: Update tệp lệnh...
+Auto-Times-OpenWrt: Đang tải tệp lệnh...
+Downloading 'https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt'
 Connecting to 185.199.109.133:443
 Writing to '/root/jamup.sh'
 /root/jamup.sh       100% |*******************************|  7200   0:00:00 ETA
 Download completed (7200 bytes)
-autotime-openwrt: update thành công.
-autotime-openwrt: Đã xóa tệp update!
+Auto-Times-OpenWrt: update thành công.
+Auto-Times-OpenWrt: Đã xóa tệp update!
 Cách dùng: Thêm tên miền sau tệp lệnh!.
-autotime-openwrt: Thiếu tên miền/URL!. Để biết thêm chi tiết vào Zalo: https://zalo.me/hoanghien14 FB Hoàng Minh Hiển.
+Auto-Times-OpenWrt: Thiếu tên miền/URL!. Để biết thêm chi tiết vào Zalo: https://zalo.me/hoanghien14 FB Hoàng Minh Hiển.
 ```
 # Mọi thắc mắc vui lòng liên hệ zalo Hoàng Minh Hiển: 
 #       http://zalo.me/hoanghien14
