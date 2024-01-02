@@ -57,13 +57,13 @@ Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặ
 Ví dụ dùng mạng Viettel:
 ```
 
-/usr/bin/times-openwrt m.tv360.vn
+/usr/bin/Auto-Times-OpenWrt m.tv360.vn
 ```
 
 Nếu sử dụng crontab (kiểm tra kết nối cứ sau 1 giờ, sau đó khởi động lại vpn nếu không có kết nối), sao chép lệnh bên dưới vào LuCI -> System -> Schedule Tasks Ví dụ:
 ```
 
-0 * * * * /usr/bin/times-openwrt m.tv360.vn cron
+0 * * * * /usr/bin/Auto-Times-OpenWrt m.tv360.vn cron
 ```
 
 Lệnh trên cũng có thể được bao gồm trong tệp/etc/crontabs/root
