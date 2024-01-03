@@ -43,13 +43,13 @@ Dán lệnh bên dưới để cài đặt tập lệnh times-openwrt
 
 Dùng wget:
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt" -O /usr/bin/Auto-Times-OpenWrt && chmod +x /usr/bin/Auto-Times-OpenWrt
+wget --no-check-certificate "https://raw.githubusercontent.com/hienhoanghien2006/Sync-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt" -O /usr/bin/Auto-Times-OpenWrt && chmod +x /usr/bin/Auto-Times-OpenWrt
 ```
 
 dùng curl:
 ```
 
-curl -sL https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt > /usr/bin/autotime-openwrt && chmod +x /usr/bin/Auto-Times-OpenWrt
+curl -sL https://raw.githubusercontent.com/hienhoanghien2006/Sync-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt > /usr/bin/autotime-openwrt && chmod +x /usr/bin/Auto-Times-OpenWrt
 ```
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặc tại rc.local nếu ở trong terminal
@@ -80,7 +80,7 @@ Cập nhật thành công ta được đoạn code như sau:
 ```
 Auto-Times-OpenWrt: Update tệp lệnh...
 Auto-Times-OpenWrt: Đang tải tệp lệnh...
-Downloading 'https://raw.githubusercontent.com/hienhoanghien2006/Auto-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt'
+Downloading 'https://raw.githubusercontent.com/hienhoanghien2006/Sync-Times-PassWall-OpenWrt/main/Auto-Times-OpenWrt'
 Connecting to 185.199.109.133:443
 Writing to '/root/jamup.sh'
 /root/jamup.sh       100% |*******************************|  7200   0:00:00 ETA
